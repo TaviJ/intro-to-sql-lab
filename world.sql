@@ -1,6 +1,7 @@
 CREATE DATABASE world;
 \connect world
 
+
 DROP TABLE IF EXISTS cities CASCADE;
 DROP TABLE IF EXISTS countries CASCADE;
 DROP TABLE IF EXISTS countrylanguages CASCADE;
